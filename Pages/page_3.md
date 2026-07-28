@@ -29,7 +29,8 @@ Inline styles for reference: **bold**, *italic*, ***both***, `inline code`, ~~st
 
 ## Schematic
 
-![5-stage ring oscillator](img/ring_osc_schematic.png "Five inverters in a loop, buffered output")
+<img width="1798" height="706" alt="image" src="https://github.com/user-attachments/assets/da463436-57e6-4542-ad7b-4e78c9f4c014" />
+
 
 Keep the loop symmetric: identical `W/L` on every stage, and buffer the tap so the probe capacitance does not load the ring.
 
