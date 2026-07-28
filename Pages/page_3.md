@@ -28,7 +28,7 @@ Inline styles for reference: **bold**, *italic*, ***both***, `inline code`, ~~st
 - Basic familiarity with SPICE netlists
 
 ## Schematic
-<img width="451" height="252" alt="image" src="https://github.com/user-attachments/assets/a953275d-bd0c-43e5-8cf3-2bdd53cb38ff" />
+![5-stage ring oscillator](img/ring_osc_schematic.png "Five inverters in a loop, buffered output")
 
 
 
