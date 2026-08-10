@@ -16,6 +16,8 @@ Once your environment is set up, work through the following examples, taking eac
 * [AIC2023](https://analogicus.com/aic2023/) — and other years (e.g. AIC2026) — teaches core analog IC concepts while building circuits on the SKY130 PDK
 
 ### Associated
+- [Xschem editor commands](http://repo.hu/projects/xschem/xschem_man/commands.html)
+- [Basic operations on KLayout](https://www.klayout.de/doc/manual/editor_operations.html)
 - [Terminology](https://zerotoasiccourse.com/terminology/) overview
 - Learn Linux with [Bandit](https://overthewire.org/wargames/bandit/)
 - Test Verilog and Digital Logic with [EDA Playground](https://edaplayground.com/x/KjwN)
