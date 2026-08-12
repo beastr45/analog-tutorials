@@ -32,7 +32,22 @@ jobs:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Cache cargo registry and mdBook binary
+        id: cache-mdbook
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/mdbook
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-mdbook-${{ env.MDBOOK_VERSION }}
+
       - name: Install mdBook
+        if: steps.cache-mdbook.outputs.cache-hit != 'true'
         run: |
           curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh
           rustup update
